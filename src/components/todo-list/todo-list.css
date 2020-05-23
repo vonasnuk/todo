@@ -1,0 +1,11 @@
+.todo-list li{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 0px;
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.list-group{
+    max-width: 400px;
+}

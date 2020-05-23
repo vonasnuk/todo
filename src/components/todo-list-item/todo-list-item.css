@@ -1,0 +1,10 @@
+.todo-list-item button{
+    float: right;
+}
+.done {
+    text-decoration: line-through;
+}
+.important {
+    font-weight: bold;
+    color: blue;
+}
