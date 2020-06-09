@@ -1,7 +1,12 @@
 import React from 'react';
 
-const AppHeader = () => {
-    return <h1>List</h1>
+const AppHeader = ({ toDo, doneItems }) => {
+    return (
+        <div>
+            <h1>List</h1>
+            <p>{toDo} more to do, {doneItems} done</p>
+        </div>
+    )
 
 };
 
