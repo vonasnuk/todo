@@ -94,7 +94,6 @@ class App extends React.Component {
             <div>
                 <AppHeader toDo={todoCount} doneItems={doneCount} />
                 <SearchPanel />
-                <StatusFilter />
                 <TodoList
                     onDelited={this.onDelited}
                     todos={todoDate}
